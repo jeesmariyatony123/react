@@ -25,3 +25,20 @@
 .accordion-content {
   padding: 10px;
 }
+
+/* star rating */
+
+.star-rating {
+  font-size: 24px;
+  padding-left: 45%;
+
+
+}
+
+.star {
+  cursor: pointer;
+}
+
+.star.selected {
+  color: gold;
+}

@@ -1,6 +1,7 @@
 import React from 'react';
 import './App.css'
 import Accordian from './components/Accordian'
+import StarRating from './components/StarRating';
 
 function App() {
 
@@ -37,6 +38,9 @@ function App() {
       <div className="App">
         <h1 style={{ display: "flex ", justifyContent: "center" }}>Accordion Example</h1>
         <Accordian items={accordionItems} />
+
+        <h1 style={{ display: "flex ", justifyContent: "center" }}>Star Rating Example</h1>
+        <StarRating totalStars={5} />
       </div>
     </>
   )
