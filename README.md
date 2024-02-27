@@ -1,4 +1,6 @@
-src/components
+
+[src/components](https://github.com/jeesmariyatony123/react/tree/master/src/components)
+
 Accordian
 ImageSlider
 StarRating
